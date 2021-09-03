@@ -1,0 +1,7 @@
+{
+  "name": "FinLitChallenge",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
