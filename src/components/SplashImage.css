@@ -1,0 +1,36 @@
+.container {
+    /* Relative position without adjustment just renders as normal, but provides a positioned parent for the absolute child text. */
+    position:relative;
+}
+
+.splash-image {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 50vh;
+    filter: blur(4px);
+}
+
+.splash-text {
+    /* Centered vertically and horizontally. */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: green 0px 0px .4em;
+    max-width: 40em;
+}
+
+.splash-text h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.splash-text p {
+    text-align: justify;
+}
+
+.splash-text ion-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

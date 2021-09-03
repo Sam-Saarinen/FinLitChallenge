@@ -1,22 +1,55 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonButton, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import SplashImage from '../components/SplashImage';
 import './Home.css';
 
 const Home: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
+      {/* <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle>Testing2</IonTitle>
         </IonToolbar>
-      </IonHeader>
+      </IonHeader> */}
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
+        {/* <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+            <IonTitle size="large">Testing</IonTitle>
           </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
+        </IonHeader> */}
+        <SplashImage></SplashImage>
+        <IonCard id="CompetitionRules">
+          <IonCardHeader>
+            <IonCardTitle>Contest Summary</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            <p></p>
+            <IonButton>Register to Receive Updates</IonButton>
+          </IonCardContent>
+        </IonCard>
+        <IonCard>
+          <IonCardHeader>
+            <IonCardTitle>Eligibility</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            <p></p>
+          </IonCardContent>
+        </IonCard>
+        <IonCard>
+          <IonCardHeader>
+            <IonCardTitle>Resources for Students</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            <p></p>
+          </IonCardContent>
+        </IonCard>
+        <IonCard>
+          <IonCardHeader>
+            <IonCardTitle>Resources for Teachers and Coaches</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent style={{'height':'1000px'}}>
+            <p></p>
+          </IonCardContent>
+        </IonCard>
       </IonContent>
     </IonPage>
   );
