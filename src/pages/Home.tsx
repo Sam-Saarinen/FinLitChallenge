@@ -23,7 +23,7 @@ const Home: React.FC = () => {
           </IonCardHeader>
           <IonCardContent>
             <p></p>
-            <IonButton>Register to Receive Updates</IonButton>
+            <IonButton href="https://forms.gle/cVHzKbyrKBPC2ggs5">Register to Receive Updates</IonButton>
           </IonCardContent>
         </IonCard>
         <IonCard>
