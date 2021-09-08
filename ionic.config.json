@@ -3,5 +3,8 @@
   "integrations": {
     "capacitor": {}
   },
+  "hooks": {
+    "build:after": "./move.js"
+  },
   "type": "react"
 }
