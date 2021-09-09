@@ -1,4 +1,5 @@
 import { IonButton } from '@ionic/react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './SplashImage.css';
 
 const SplashImage: React.FC = () => {
@@ -9,7 +10,7 @@ const SplashImage: React.FC = () => {
         <div className="splash-text">
           <h1>Fin-Lit Challenge</h1>
           <p>Rhode Island College and high school students compete for cash prizes while increasing financial literacy.</p>
-          <IonButton color="secondary" href="./#CompetitionRules">Learn More</IonButton>
+          <Link to="./#CompetitionRules" smooth={true}><IonButton color="secondary">Learn More</IonButton></Link>
           {/* TODO: See if this is working. */}
         </div>
       </div>
