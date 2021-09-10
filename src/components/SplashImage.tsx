@@ -9,7 +9,7 @@ const SplashImage: React.FC = () => {
         <img className="splash-image" src="./assets/FinLitSplash.jpg" alt="Financial Literacy Photo by Markus Spiske on Unsplash"/>
         <div className="splash-text">
           <h1>Fin-Lit Challenge</h1>
-          <p>Rhode Island College and high school students compete for cash prizes while increasing financial literacy.</p>
+          <p>Rhode Island university and high school students compete for cash prizes while increasing financial literacy.</p>
           <Link to="./#CompetitionRules" smooth={true}><IonButton color="secondary">Learn More</IonButton></Link>
           {/* TODO: See if this is working. */}
         </div>

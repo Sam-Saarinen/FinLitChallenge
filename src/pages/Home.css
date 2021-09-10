@@ -1,0 +1,19 @@
+.logo {
+    width: 10em;
+}
+
+ion-grid{
+    height: 100%;
+}
+ion-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+ion-button {
+    --background: linear-gradient(120deg, #155799, #159957);
+}
