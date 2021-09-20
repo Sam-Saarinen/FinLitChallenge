@@ -16,6 +16,18 @@ p {
   margin: auto; /* Works outside of card environment, but not inside ion-card*/
 }
 
+ul {
+  max-width: 50em;
+  margin: auto;
+}
+
+ion-card-content > ion-list,
+.card-content-md > .list-md,
+.card-content-ios > .list-ios {
+  max-width: 50em;
+  margin: auto;
+}
+
 .fancy-p {
   /*For fancy paragraphs*/
   text-indent: 2em;

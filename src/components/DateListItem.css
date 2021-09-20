@@ -1,0 +1,13 @@
+.date {
+    font-weight: bold;
+    margin-right: .5em;
+}
+
+.event-name {
+    font-style: italic;
+    margin-right: .5em;
+}
+
+.description {
+    margin-left: .5em;
+}

@@ -17,3 +17,9 @@ ion-row{
 ion-button {
     --background: linear-gradient(120deg, #155799, #159957);
 }
+
+/* Specifically for the sponsors and organizers */
+ion-card-content > ion-grid {
+    max-width: 50em;
+    margin: auto; /* Works outside of card environment, but not inside ion-card*/
+  }
